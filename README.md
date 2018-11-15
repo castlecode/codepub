@@ -12,11 +12,11 @@ and alternate between displaying the image and this number on the board.
 * Part 4: General improvements
 
 ## Compile and load binary image
-Write code in choice of editor or directly in the live editor
+Write code in your choice of editor or directly in the live editor
 [editor](http://python.microbit.org/v/1). When ready to compile load script 
-into the live editor and press *Download* this will produce a hex-file.
-Connect Micro:bit to computer, a directory will pop up. Drag and drop file to 
-this directory, the program you just wrote will now be flashed into the device. 
+into the live editor and press *Download* this will produce a .hex file.
+Connect Micro:bit to computer. Drag and drop the .hex file to the Micro:bit 
+drive, the program you just wrote will now be flashed into the device. 
 
 ## Debug
 Plug in Micro:bit, check which port the Micro:bit is connected to in a terminal
@@ -31,6 +31,8 @@ screen /dev/<name of port> 115200
 in an open terminal. If you have a Windows computer follow [these](https://www.microbit.co.uk/td/serial-library) instructions.
 
 ### Useful screen commands
+```
 Kill terminal   *ctrl+a k*
 Detach terminal	*ctrl+a d*
 Attach terminal	*ctrl+a a*
+```
