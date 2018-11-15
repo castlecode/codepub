@@ -32,7 +32,7 @@ in an open terminal. If you have a Windows computer follow [these](https://www.m
 
 ### Useful screen commands
 ```
-Kill terminal   *ctrl+a k*
-Detach terminal	*ctrl+a d*
-Attach terminal	*ctrl+a a*
+Kill terminal       ctrl+a k
+Detach terminal	    ctrl+a d
+Attach terminal	    ctrl+a a
 ```
