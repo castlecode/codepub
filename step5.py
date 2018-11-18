@@ -15,12 +15,8 @@ radio.on()
 radio.config(channel=9)
 
 while True:
-    #if accelerometer.was_gesture('shake'):
     if button_a.was_pressed():
         tool = random.randrange(3)
-        #display.clear()
-        #sleep(1000)
-        #display.show(tool)
     
     sleep_time = random.randint(200, 500)
     print('sleep time: %s' % sleep_time)
@@ -51,10 +47,6 @@ while True:
             peers.discard(their_id)
 
     print(peers)
-    
-    #print('sleeping...')
-    #sleep(sleep_time)
 
     print('sleeping...')
     sleep(sleep_time)
-
