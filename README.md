@@ -9,7 +9,8 @@ message.
 * Part 3: add so you can also receive others message and identify if their 
 image is the same as yours. count all players that have same image as you 
 and alternate between displaying the image and this number on the board.
-* Part 4: General improvements
+* Part 4: Improve how radio is utilized so that you can recieve more data.
+* Part 5: General improvements and touch-up.
 
 ## Compile and load binary image
 Write code in your choice of editor or directly in the live editor
