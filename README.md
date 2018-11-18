@@ -1,5 +1,5 @@
 # Rock, paper, scissor
-This is a 4-step workshop for learning how to program with a Micro:bit,
+This is a 5-step workshop for learning how to program with a Micro:bit,
 the steps we will go through are:
 
 * Part 1: create images (SKULL, PITCHFORK, PACMAN) and display one of 
