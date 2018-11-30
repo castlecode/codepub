@@ -2,7 +2,7 @@
 This is a 5-step workshop for learning how to program with a Micro:bit,
 the steps we will go through are:
 
-* Part 1: create images (SKULL, PITCHFORK, PACMAN) and display one of 
+* Part 1: create images (HEART, PITCHFORK, PACMAN) and display one of 
 them randomly each time you press button A.
 * Part 2: send out an unique id and image number (0, 1 or 2) in a radio 
 message.
