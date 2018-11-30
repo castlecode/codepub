@@ -2,7 +2,7 @@ import random
 import radio
 from microbit import accelerometer, Image, display, sleep, button_a
 
-tools = (Image.SKULL, Image.PITCHFORK, Image.PACMAN)
+tools = (Image.HEART, Image.PITCHFORK, Image.PACMAN)
 
 random.seed(463473567345343)
 my_id = 'thommy'

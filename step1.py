@@ -4,7 +4,7 @@ from microbit import button_a, Image, display, sleep
 
 # Create an array with the three prepicked images to 
 # use instead of stone, rock, scissor. By terminology we call these "tools"
-tools = (Image.SKULL, Image.PITCHFORK, Image.PACMAN)
+tools = (Image.HEART, Image.PITCHFORK, Image.PACMAN)
 
 random.seed(463473567345343)
 my_id = 'foo'
