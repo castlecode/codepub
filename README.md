@@ -1,15 +1,16 @@
 # Rock, paper, scissor
-This is a 4-step workshop for learning how to program with a Micro:bit,
+This is a 5-step workshop for learning how to program with a Micro:bit,
 the steps we will go through are:
 
-* Part 1: create images (SKULL, PITCHFORK, PACMAN) and display one of 
+* Part 1: create images (HEART, PITCHFORK, PACMAN) and display one of 
 them randomly each time you press button A.
 * Part 2: send out an unique id and image number (0, 1 or 2) in a radio 
 message.
 * Part 3: add so you can also receive others message and identify if their 
 image is the same as yours. count all players that have same image as you 
 and alternate between displaying the image and this number on the board.
-* Part 4: General improvements
+* Part 4: Improve how radio is utilized so that you can recieve more data.
+* Part 5: General improvements and touch-up.
 
 ## Compile and load binary image
 Write code in your choice of editor or directly in the live editor
