@@ -17,10 +17,6 @@ radio.on()
 while True:
     if button_a.was_pressed():
         tool = random.randrange(3)
-        #display.clear()
-        #sleep(1000)
-        # Show the randomly chosen tool on the Micro:bit
-        #display.show(tool)
     
     display.clear()
     # Show the randomly chosen tool on the Micro:bit
@@ -43,14 +39,14 @@ while True:
     
     if incoming:
         # Store incoming message in 2 variables, their id and their tool number
-        (their_id, their_tool) = incoming.split()
+        # (their_id, their_tool) = <write code here>
         
         # If the incoming tool number equals your own tool number add their id 
         # to the peers set otherwise discard their id from the peers set
         if int(their_tool) == tool:
-            peers.add(their_id)
+            #<add tool to peers set>
         else:
-            peers.discard(their_id)
+            #<discard tool to peers set>
 
     print(peers)
     

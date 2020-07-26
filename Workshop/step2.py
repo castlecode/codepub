@@ -18,10 +18,10 @@ while True:
         display.clear()
         sleep(1000)
         # Show the randomly chosen tool on the Micro:bit
-        display.show(tools[tool])
+        # display.show(<write code here>)
     
     # Broadcast your id and tool number (1, 2 or 3) 
     # as a string in a radio message, e.g. '10 1'
-    radio.send('%s %s' % (my_id, tool))
+    #radio.send('%s %s' % <write code here>)
 
     sleep(10)
